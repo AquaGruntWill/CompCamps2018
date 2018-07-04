@@ -1,7 +1,79 @@
 .center{
+    background-color:#00FF6E;
   text-align: center;
+
 }
-body{
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+html{
+  background: linear-gradient(90deg, #444444, #44003f);
+  font-family: 'Rubik Mono One', sans-serif;
+
+  margin: 0 auto;
   text-align: center;
+
+}
+
+.vaportitle{
+  font-size: 100px;
+font-weight: 800;
+text-transform: uppercase;
+/* Warning: no fallback */
+
+background: -webkit-linear-gradient(-90deg, blue 5%, white 47%, purple 53%, white 95%);
+-webkit-background-clip: text;
+-webkit-text-stroke: 5px transparent;
+      font-family: 'Rubik Mono One', sans-serif;
+color: #000000;
+
+}
+
+.nav-item{
+    color: #FF406D;
+  display: inline;
+  padding: 10px;
+
+
+}
+.nav{
+  margin: 0px;
+  padding: 0px;
+  background-color: #00FF6E;
+}
+
+.nav-container{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.nav-link{
+  text-decoration: none;
+  color: pink;
+  -webkit-transition: 0.1 linear;
+}
+
+body{
+  width: 100%;
+}
+
+.vaportag{
+  background: -webkit-linear-gradient(-91deg, #f96df7 5%, #fc2af8 53%, #f96df7 91%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Aguafina Script', cursive;
+  font-style: italic;
+  font-kerning: normal;
+  font-size: 50px;
+  text-align: center;
+  transform: rotate(-15deg);
+  text-overflow: clip;
+
+
+}
+
+.vaporname{
+  font-size: 30px;
+  background: -webkit-linear-gradient(-91deg, #afffff 5%, #00ffff 53%, #afffff 91%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
