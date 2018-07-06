@@ -12,7 +12,7 @@
 html {
   z-index: 1;
   background-size: cover;
-  background: -webkit-linear-gradient(-90deg, #09000f 60%, #740cb5 74%, #ff9000 79%);
+  background: -webkit-linear-gradient(-90deg, #09000f 60%, #740cb5 74%, #ff9000 90%);
   font-family: 'Rubik Mono One', sans-serif;
   margin: 0 auto;
   text-align: center;
@@ -97,4 +97,8 @@ a:link{
 
 a:visited{
   color: cyan;
+}
+
+.photoshop{
+   max-width: 800px;
 }
