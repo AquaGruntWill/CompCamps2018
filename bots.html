@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
   <meta charset="utf-8">
-  <title id="title">scriptbroke</title>
-  <h1 id="h1" class="vaportitle">title</h1>
+  <title id="title">CompCamps 2018</title>
+  <h1 id="h1" class="vaportitle">CompCamps 2018</h1>
   <div style="position:relative; top:-130px;left:500px;">
-    <h2 id="tagline" class="vaportag">tag</h2></div>
+    <h2 style="z-index: 0;" id="tagline" class="vaportag">EXPECTED "}" LINE 93</h2></div>
 
 
   <script>
@@ -19,24 +20,28 @@
       "JumpCamps 2017",
       "CoinCamps 2018",
       "NelsonCamps 2018",
-      "AfriCamps 2018",
-      "CookieCamps 2018",
+      "JourneyCamps 2018",
+      "AuctionCamps 2018",
       "EconomyCamps 2018",
       "MemeCamps 2018",
       "SodieCamps 2018",
       "LossCamps 2018",
       "ToddCamps 2018",
       "SadCamps 2018",
-      "GlitchCamps 2018"
+      "GlitchCamps 2018",
+      "StressCamps 2018",
+      "FlexCamps 2018",
+      "T CAMPS 2018"
     ];
     var taglines = [
       'EXPECTED "}" LINE 93',
       '#SQUATSQUAD 2K18',
-      '#juicecamps #juicecamps #juicecamps', 'No, it was the OTHER way, i swear',
+      '#juicecamps #juicecamps #juicecamps',
+       'No, it was the OTHER way, i swear',
       "Never forget.",
       "oJYzrfBk396bc9yswpSkkL/N6i3h0653VplfLw...",
       "1-800-I-NEED-NELSON",
-      "Gonna take a lot to drag me awayyyyyy from youuuu!",
+      "Just a small town girl...",
       "Those were MY cookies you sold!",
       "Coke Standard!",
       "E",
@@ -44,7 +49,10 @@
       "| || || |_",
       "It just works!",
       "Alexa, play Despacito",
-      "Your balance is: ¢991100001000000120"
+      "Your balance is: ¢991100001000000120",
+      "Friday looms closer...",
+      "That's a lot of damage!",
+      "ASSERT DOMINANCE"
     ]
     var number = Math.floor(Math.random() * titles.length);
     document.getElementById("h1").innerHTML = titles[number];
@@ -52,22 +60,55 @@
     document.getElementById("tagline").innerHTML = taglines[number];
   </script>
   <div style="position:relative; top:-180px;">
-    <h3 class="vaporname"> --- W I L L I A M   W H I T T I N G T O N --- </h3></div>
+    <h3 style="z-index: 1;" class="vaporname"> --- W I L L I A M   W H I T T I N G T O N --- </h3></div>
   <div class="nav">
     <ul class="nav">
       <li class="nav-item"><a href="index.html">Home</a></li>
-      <li class="nav-item"><a href="bots.html">Python</a></li>
-      <li class="nav-item"><a href="modeling.html">Blender</a></li>
+      <li class="nav-item"><a href="bots.html">Projects</a></li>
+      <li class="nav-item"><a href="contact.html">Contact</a></li>
       <li class="nav-item"><a href="https://www.compcamps.com" target="_blank">CompCamps</a></li>
-      <li class="nav-item"><a href="contact.html" target="_blank">Contact</a></li>
-
     </ul>
   </div>
 </head>
-  <body>
-    <img class="center" src="images/brett.jpg" alt="Brett Mayson"/>
-    <h1 class="center">beep boop</h1>
-    <h3 class="center">expected '}' line 93</h3>
 
-  </body>
+<body>
+  <h1 class="center">print("{}'s Projects!".format(camper.name))</h1>
+  <h2 class="center">Python RPG Game</h2>
+  <h3 class="center">
+    <img src="images/pokemon1.png" alt="Me"/><br>
+This week, we used Python to make a minimalistic turn-based RPG,
+where you battle our Mentors In Training. I am working on taking the framework from
+this game and turning it into a full pokemon engine. <br> Progress so far has been slow, but I have all of next week to
+improve it. Instead of you and the enemy MIT's stats being pre-set and static, both the player and enemy pokemon
+are chosen from an array, with individual stats for health, attack, defence, special attack, special defence, and speed.
+Speed and the special stats aren't used yet, but that shouldn't be too complicated. Attack and defence are used in
+a equation based on the actual Pokemon games to calculate damage done.<br>  Expect support for multiple moves, items,
+and using a team of pokemon! <br>
+
+
+<img src="images/pokemon2.png" alt="Me"/><br>
+...also you can't lose yet. That should be fixed soon.
+
+</h3>
+<h2 class="center">HTML + CSS + Javascript</h2>
+<h3 class="center">
+My other project this week is the website you're looking at now! This is bar none the most complex website I've made yet.
+The title at the top of the page was made completely with Javascript and a truckload of CSS. It generates one of almost 20
+titles for the page, with matching, hot pink splash text. <br><a href="bots.html">Check it out!</a><br> That effect was
+acheived via Javascript, which I discovered was... pretty annoying. Also annoying were the cool image at the bottom of the
+  screen. they're actually two different images placed on top of one another. HTML doesn't like that.<br> But hey, it works!
+  <br> ...as long as you don't use Internet Explorer.<br>  Or Microsoft Edge.<br>  Or smartphones.<br>  Or different screen sizes. <br>
+  <img src="images/html1.png" alt="Website Code"/><br>
+  <img src="images/html2.png" alt="Top Secret Website Developer Commentary"/><br>
+
+ <sup>(((top secret original website design plans)))</sup>
+
+</h3>
+</body>
+<footer>
+  <img style="position:relative; top:600px; z-index: -1;" src="images/sun.png" alt="Brett Mayson" />
+  <img style="z-index: 0;" src="images/mountains.png" alt="Brett Mayson" />
+
+</footer>
+
 </html>

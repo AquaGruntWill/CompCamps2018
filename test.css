@@ -19,9 +19,9 @@ html{
 
 h2{
   font-size: 100px;
+/* Warning: no fallback */
 font-weight: 800;
 text-transform: uppercase;
-/* Warning: no fallback */
 
 background: -webkit-linear-gradient(-86deg, #EEF85B 5%, #7AEC8D 53%, #09E5C3 91%);
 -webkit-background-clip: text;
