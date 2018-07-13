@@ -3,7 +3,7 @@
   background-color: black;
   margin-left: 300px;
   margin-right: 300px;
-  outline-color: purple;
+  outline-color: #00ffa1;
   outline-style: solid;
   outline-width: 5px;
   color: cyan;
@@ -12,14 +12,14 @@
 html {
   z-index: 1;
   background-size: cover;
-  background: -webkit-linear-gradient(-90deg, #09000f 60%, #740cb5 74%, #ff9000 90%);
+  background: -webkit-linear-gradient(-90deg, #081222 60%, #192885 74%, #82C90A 90%);
   font-family: 'Rubik Mono One', sans-serif;
   margin: 0 auto;
   text-align: center;
 }
 
 .vaportitle {
-  background: -webkit-linear-gradient(-90deg, blue 5%, white 47%, purple 53%, white 95%);
+  background: -webkit-linear-gradient(-90deg, darkblue 12%, white 47%, #82C90A 53%, white 95%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 5px transparent;
   color: #000000;
@@ -27,6 +27,8 @@ html {
   font-size: 100px;
   font-weight: 800;
   text-transform: uppercase;
+  text-decoration: none;
+
 }
 
 .nav-item {
@@ -42,7 +44,7 @@ html {
   color: cyan;
   margin-left: 200px;
   margin-right: 200px;
-  outline-color: purple;
+  outline-color: #00ffa1;
   outline-style: solid;
   outline-width: 5px;
   z-index: 1;
@@ -57,7 +59,7 @@ html {
 .nav-link {
   z-index: 1;
   -webkit-transition: 0.1 linear;
-  color: magenta;
+  color: #00ffa1;
   text-decoration: none;
 }
 
@@ -67,7 +69,7 @@ body {
 }
 
 .vaportag {
-  background: -webkit-linear-gradient(-91deg, #f96df7 5%, #fc2af8 53%, #f96df7 91%);
+  background: -webkit-linear-gradient(-91deg, #00ffa1 5%, cyan 53%, #00ffa1 91%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Aguafina Script', cursive;
@@ -81,9 +83,11 @@ body {
 
 .vaporname {
   font-size: 30px;
-  background: -webkit-linear-gradient(-91deg, #afffff 5%, #00ffff 53%, #afffff 91%);
+  background: -webkit-linear-gradient(-91deg, #afffff 5%, cyan 53%, #afffff 91%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: black;
+  text-decoration: none;
 }
 
 footer {
@@ -91,13 +95,14 @@ footer {
   margin: -10px;
 }
 
+
 a{
   color: black;
   text-decoration: none;
 }
 
 
-a.nottitle{
+.nottitle{
   color: cyan;
 }
 
