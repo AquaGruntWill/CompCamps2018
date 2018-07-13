@@ -12,60 +12,77 @@
 
 
   <script>
+  e = "E"
+  coin = "CoinCamp$ 2018"
+  economy= "EconomyCamp$ 2018"
+  auction = "AuctionCamp$ 2018"
     var titles = [
       'CompCamps 2018',
       'SquatCamps 2018',
       'JuiceCamps 2018',
       "LostCamps 2018",
       "JumpCamps 2017",
-      "CoinCamps 2018",
+      coin.link("https://coin.compcamps.com"),
       "NelsonCamps 2018",
       "JourneyCamps 2018",
-      "AuctionCamps 2018",
-      "EconomyCamps 2018",
+      auction.link("https://coin.compcamps.com"),
+      economy.link("https://coin.compcamps.com"),
       "MemeCamps 2018",
       "SodieCamps 2018",
-      "LossCamps 2018",
-      "ToddCamps 2018",
-      "SadCamps 2018",
       "GlitchCamps 2018",
       "StressCamps 2018",
       "FlexCamps 2018",
-      "T CAMPS 2018"
+      "T CAMPS 2018",
+    ];
+    var headers = [
+      'CompCamps 2018',
+      'SquatCamps 2018',
+      'JuiceCamps 2018',
+      "LostCamps 2018",
+      "JumpCamps 2017",
+      "CoinCamp$ 2018",
+      "NelsonCamps 2018",
+      "JourneyCamps 2018",
+      "AuctionCamp$ 2018",
+      "EconomyCamp$ 2018",
+      "MemeCamps 2018",
+      "SodieCamps 2018",
+      "GlitchCamps 2018",
+      "StressCamps 2018",
+      "FlexCamps 2018",
+      "T CAMPS 2018",
     ];
     var taglines = [
       'EXPECTED "}" LINE 93',
       '#SQUATSQUAD 2K18',
-      '#juicecamps #juicecamps #juicecamps', 'No, it was the OTHER way, i swear',
+      '#juicecamps🍹#juicecamps🍹#juicecamps',
+      'No, the EXCELLENCE building. No, the other one!',
       "Never forget.",
       "oJYzrfBk396bc9yswpSkkL/N6i3h0653VplfLw...",
       "1-800-I-NEED-NELSON",
-      "Gonna take a lot to drag me awayyyyyy from youuuu!",
-      "Those were MY cookies you sold!",
+      "jjjjUST A SMALL TOWN GIRLL",
+      "I still need my cookies back.",
       "Coke Standard!",
-      "E",
+      e.link("e.html"),
       "The Art of the Deal",
-      "| || || |_",
-      "It just works!",
-      "Alexa, play Despacito",
       "Your balance is: ¢991100001000000120",
       "Friday looms closer...",
       "That's a lot of damage!",
-      "ASSERT DOMINANCE"
+      "ASSERT DOMINANCE",
     ]
     var number = Math.floor(Math.random() * titles.length);
     document.getElementById("h1").innerHTML = titles[number];
-    document.getElementById("title").innerHTML = titles[number];
+    document.getElementById("title").innerHTML = headers[number];
     document.getElementById("tagline").innerHTML = taglines[number];
   </script>
   <div style="position:relative; top:-180px;">
     <h3 style="z-index: 1;" class="vaporname"> --- W I L L I A M   W H I T T I N G T O N --- </h3></div>
   <div class="nav">
     <ul class="nav">
-      <li class="nav-item"><a href="index.html">Home</a></li>
-      <li class="nav-item"><a href="bots.html">Projects</a></li>
-      <li class="nav-item"><a href="contact.html">Contact</a></li>
-      <li class="nav-item"><a href="https://www.compcamps.com" target="_blank">CompCamps</a></li>
+      <li class="nav-item"><a href="index.html" class="nottitle">Home</a></li>
+      <li class="nav-item"><a href="bots.html"  class="nottitle">Week 1</a></li>
+      <li class="nav-item"><a href="week2.html"  class="nottitle">Week 2</a></li>
+      <li class="nav-item"><a href="https://www.compcamps.com" target="_blank"  class="nottitle">CompCamps</a></li>
     </ul>
   </div>
 </head>
@@ -85,9 +102,7 @@ I ended up pooling all of my coins with Eli and AJ, which is why i don't have an
 I had actually discovered that you could transfer someone a negative amount of coins to easily steal from them... a day after everone else had.
 So, I had a glorious 15 minuites with about 100 quadrillion CompCoins. and then it was fixed. Oh well. At least I was able to buy back some of my cookies.
 
-<br> <img  src="https://campcoin.herokuapp.com/api/balance?image=true&public_key=fzh0XfG%2FkH7n5tEGzu2CYUyrqqPH%2FJ7itSMIfRsJNozzucADIbPc7ywb5gRc3qYQvvSJNuv%2FlBYmlBXJVtsTSg%3D%3D" alt="CompCoin Balance"/>
-<br> That image is actually live! It uses the CC miner's public key, so when i'm rich next week it'll update automatically.
-
+<br> <img src="https://compcamps-cash.herokuapp.com/api/balance?image=true&public_key=GzAzwlAVBkDYNDvD6isB4EiJkiyDvdUKkR5prlZQ5BqPuEsBXY8Jc%2FazcAMyx%2B600hfDCY0pzGpYTzq28nAykA%3D%3D" alt="CompCoin Balance"/>
 
 
 
