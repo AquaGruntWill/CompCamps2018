@@ -67,7 +67,7 @@ body {
 }
 
 .vaportag {
-  background: -webkit-linear-gradient(-91deg, blueviolet 10%, deepskyblue 53%, violet 60%);
+  background: -webkit-linear-gradient(-91deg, blueviolet 10%, deepskyblue 35%, violet 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Aguafina Script', cursive;
