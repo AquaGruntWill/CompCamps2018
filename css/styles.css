@@ -1,6 +1,6 @@
 .center {
   z-index: 1;
-  background-color: black;
+  background-color: #130039;
   margin-left: 300px;
   margin-right: 300px;
   outline-color: deepskyblue;
@@ -12,8 +12,8 @@
 html {
   z-index: 1;
   background-size: cover;
-  background: -webkit-linear-gradient(-90deg, midnightblue 0%, deepskyblue 30%, skyblue 50%, skyblue 70%);
-  font-family: 'Rubik Mono One', sans-serif;
+  background: -webkit-linear-gradient(-90deg, midnightblue 0%, deepskyblue 30%, skyblue 50%, skyblue 70%, white 100%);
+  font-family: 'K2D', sans-serif;
   margin: 0 auto;
   text-align: center;
 }
@@ -22,7 +22,7 @@ html {
   background: -webkit-linear-gradient(-90deg, skyblue 25%, white 47%, deepskyblue 53%, blueviolet 80%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 5px transparent;
-  color: #000000;
+  color:  #1a004e;
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 100px;
   font-weight: 800;
@@ -32,13 +32,12 @@ html {
 .nav-item {
   color: blue;
   display: inline;
-  padding: 10px;
   text-decoration-color: magenta;
   z-index: 1;
 }
 
 .nav {
-  background-color: black;
+  background-color: #130039;
   color: cyan;
   margin-left: 200px;
   margin-right: 200px;
@@ -67,7 +66,7 @@ body {
 }
 
 .vaportag {
-  background: -webkit-linear-gradient(-91deg, blueviolet 5%, deepskyblue 53%, skyblue 91%);
+  background: -webkit-linear-gradient(-91deg, blueviolet 10%, deepskyblue 53%, violet 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Aguafina Script', cursive;
