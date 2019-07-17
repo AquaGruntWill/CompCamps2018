@@ -1,0 +1,16 @@
+{
+"companyName": "William Whittington",
+"productName": "Ultra Spacetime Web Demo 2",
+"productVersion": "0.2",
+"dataUrl": "webport2.data.unityweb",
+"wasmCodeUrl": "webport2.wasm.code.unityweb",
+"wasmFrameworkUrl": "webport2.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#3D2352",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.0a8"
+}
