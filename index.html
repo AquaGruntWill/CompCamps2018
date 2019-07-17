@@ -60,16 +60,23 @@ This is a huge project I've wanted to do for a long time and Unity was the perfe
 
 <h2 class="center">Play the demo!
 <h3 class="center">
+  <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | Ultra Spacetime Web Demo 2</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
   <link rel="stylesheet" href="TemplateData/style.css">
   <script src="TemplateData/UnityProgress.js"></script>
   <script src="Build/UnityLoader.js"></script>
-  <script style="width: 800px">
-  var unityInstance = UnityLoader.instantiate("unityContainer", "Build/webport.json", {onProgress: UnityProgress});
+  <script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/webport2.json", {onProgress: UnityProgress});
   </script>
-
   <div class="webgl-content">
-  <div id="unityContainer" style="width: 800; height: 450px"></div>
+    <div id="unityContainer" style="width: 1024px; height: 576px"></div>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+      <div class="title">Ultra Spacetime Web Demo 2</div>
+    </div>
   </div>
 
 </h2>
