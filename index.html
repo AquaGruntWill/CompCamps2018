@@ -3,7 +3,6 @@
 
 <head>
   <meta name=”viewport” content=”width=device-width, initial-scale=1″>
-  <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Aguafina+Script" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=K2D&display=swap" rel="stylesheet">
 
@@ -47,7 +46,29 @@
     document.getElementById("h1").innerHTML = titles[number];
     document.getElementById("title").innerHTML = headers[number];
     document.getElementById("tagline").innerHTML = taglines[number];
+
+    function detectmob() {
+ if( navigator.userAgent.match(/Android/i)
+ || navigator.userAgent.match(/webOS/i)
+ || navigator.userAgent.match(/iPhone/i)
+ || navigator.userAgent.match(/iPad/i)
+ || navigator.userAgent.match(/iPod/i)
+ || navigator.userAgent.match(/BlackBerry/i)
+ || navigator.userAgent.match(/Windows Phone/i)
+ ){
+    return true;
+  }
+ else {
+    return false;
+  }
+}
+var css= "css/styles.css";
+if(detectmob()){
+  css = "css/mobilestyles.css"
+}
   </script>
+  <link rel="stylesheet" href="css/styles.css">
+
   <div style="position:relative; top:-180px;">
     <h3 style="z-index: 1;" class="vaporname"> --- W I L L I A M W H I T T I N G T O N --- </h3>
   </div>
