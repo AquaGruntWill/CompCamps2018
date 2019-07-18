@@ -12,7 +12,7 @@
 html {
   z-index: 1;
   background-size: cover;
-  background: -webkit-linear-gradient(-90deg, midnightblue 0%, deepskyblue 30%, skyblue 50%, skyblue 70%, white 100%);
+  background: -webkit-linear-gradient(-90deg, midnightblue 0%, skyblue 20%, pink 40%, orange 60%, indigo 70%, black 90%);
   font-family: 'K2D', sans-serif;
   margin: 0 auto;
   text-align: center;
@@ -21,10 +21,10 @@ html {
 }
 
 .vaportitle {
-  background: -webkit-linear-gradient(-90deg, skyblue 25%, white 47%, deepskyblue 53%, blueviolet 80%);
+  background: -webkit-linear-gradient(-85deg, skyblue 25%, hotpink 47%, orange 53%, blueviolet 80%);
   -webkit-background-clip: text;
   -webkit-text-stroke: 5px transparent;
-  color:  #1a004e;
+  color:  #010250;
   font-family: 'Rubik Mono One', sans-serif;
   font-size: 100px;
   font-weight: 800;
@@ -68,7 +68,7 @@ body {
 }
 
 .vaportag {
-  background: -webkit-linear-gradient(-91deg, blueviolet 10%, deepskyblue 35%, violet 60%);
+  background: -webkit-linear-gradient(-91deg, magenta 10%, violet 40%, orange 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Aguafina Script', cursive;
@@ -82,13 +82,13 @@ body {
 
 .vaporname {
   font-size: 30px;
-  background: -webkit-linear-gradient(-91deg, blueviolet 5%, violet 53%, pink 91%);
+  background: -webkit-linear-gradient(-90deg, blueviolet 5%, violet 53%, skyblue 70%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 footer {
-
+ margin: -100px
  width: 100vw;
 }
 
@@ -104,4 +104,14 @@ a.nottitle{
 
 .photoshop{
    max-width: 800px;
+}
+
+.week2{
+  background-color: black;
+  color: violet;
+  outline-color: purple;
+  outline-style: solid;
+  outline-width: 5px;
+  z-index: 1;
+
 }
